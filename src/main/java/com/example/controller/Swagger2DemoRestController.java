@@ -24,9 +24,8 @@ public class Swagger2DemoRestController {
     List<Student> students = new ArrayList<Student>();
     {
         students.add(new Student("Sajal", "IV", "India"));
-        students.add(new Student("Lokesh", "V", "India"));
         students.add(new Student("Kajal", "III", "USA"));
-        students.add(new Student("Sukesh", "VI", "USA"));
+        students.add(new Student("Sukesh", "VI", "US"));
     }
  
     @RequestMapping(value = "/getStudents")
