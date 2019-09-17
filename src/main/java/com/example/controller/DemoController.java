@@ -50,7 +50,7 @@ public class DemoController {
 	
 	public String mainWithParam(String name,Model model) {
 		model.addAttribute("message",name);
-		return "welcome";
+		return "welcome to the user board";
 	}
 
 }
