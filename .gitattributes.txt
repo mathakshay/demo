@@ -1,7 +1,7 @@
 *.doc	diff=astextplain
 *.DOC	diff=astextplain
 *.docx  diff=pandoc
-*.DOCX	diff=astextplain
+*.DOCX	diff=pandoc
 *.docm	diff=astextplain
 *.DOCM	diff=astextplain
 *.dot	diff=astextplain
